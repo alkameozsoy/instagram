@@ -1,0 +1,52 @@
+#ust {
+  background-color: #fff;
+  height: 54px;
+}
+#story {
+  background-color: #fff;
+  margin: auto;
+  border: 1px;
+  height: 110px;
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+}
+.story {
+  border-radius: 50%;
+}
+.story-container ul {
+  list-style-type: none;
+  display: flex;
+  overflow: auto;
+  padding: 20px;
+}
+.story-container ul li {
+  padding: 0 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.story-container ul li .story {
+  padding: 2px;
+  background-color: red;
+}
+.story-container ul li .storypat {
+  padding: 2px;
+  background-color: blueviolet;
+}
+.navbar-brand {
+}
+#svg {
+  background-image: url("assets/search-solid.svg");
+  background-repeat: no-repeat;
+  background-size: 12px;
+  background-position: 5px center;
+}
+
+::placeholder {
+  padding: 10px;
+}
+.newsfeed ::placeholder {
+  text-align: right;
+}
